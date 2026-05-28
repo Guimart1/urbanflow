@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/rotas")
+@CrossOrigin(origins = "*")
 public class RoteamentoController {
 
     @Autowired
